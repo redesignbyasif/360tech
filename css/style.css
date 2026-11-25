@@ -5,12 +5,12 @@
 
 :root {
   /* Brand palette */
-  --brand-navy: #0A2D5E;
-  --brand-navy-deep: #071F40;
-  --brand-blue: #1550A8;
-  --brand-blue-soft: #3E78CE;
-  --brand-accent: #F2991C;
-  --brand-accent-deep: #D97F08;
+  --brand-navy: #3D3E6A;
+  --brand-navy-deep: #262845;
+  --brand-blue: #5673A5;
+  --brand-blue-soft: #6E8FB8;
+  --brand-accent: #A41F34;
+  --brand-accent-deep: #8C1A2C;
 
   /* Neutrals */
   --ink: #101B2E;
@@ -19,7 +19,7 @@
   --line: #E3E9F2;
   --bg: #FFFFFF;
   --bg-soft: #F3F6FB;
-  --bg-deep: #0B1E45;
+  --bg-deep: #262845;
 
   /* Typography */
   --font-head: "Oswald", "Arial Narrow", Arial, sans-serif;
@@ -117,7 +117,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 600; line-height: 1
   box-shadow: var(--shadow-sm);
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 14px; width: 100%; }
-.brand-logo { height: 40px; width: auto; }
+.brand-logo { height: 46px; width: auto; }
 
 .header-actions { display: flex; align-items: center; gap: 10px; }
 .header-phone {
@@ -258,7 +258,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 600; line-height: 1
   font-weight: 600;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: #FFD9B0;
+  color: #F3D3D8;
   margin-bottom: 18px;
 }
 .eyebrow-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--brand-accent); box-shadow: 0 0 0 4px rgba(242, 153, 28, .25); }
@@ -586,6 +586,17 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 600; line-height: 1
 .site-footer { background: var(--brand-navy-deep); color: rgba(255, 255, 255, .75); padding: 56px 0 26px; }
 .footer-inner { display: grid; gap: 36px; }
 .footer-brand .brand-logo { height: 44px; margin-bottom: 14px; }
+.footer-logo-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 14px;
+  padding: 12px 22px 10px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow-sm);
+}
+.footer-logo-chip .brand-logo { height: 40px; margin-bottom: 0; }
 .footer-brand p { font-size: .92rem; max-width: 340px; }
 .footer-nav h4, .footer-contact h4 { font-family: var(--font-head); font-size: 1rem; color: #fff; margin-bottom: 14px; letter-spacing: .5px; }
 .footer-nav ul, .footer-contact p { display: flex; flex-direction: column; gap: 9px; font-size: .92rem; }

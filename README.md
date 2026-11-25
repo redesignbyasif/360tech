@@ -17,7 +17,8 @@ This repository contains a complete static homepage redesign, built from a full 
 ## Design System
 
 - **Direction:** Premium industrial editorial — bold typographic hierarchy, full-bleed photography, asymmetric service composition
-- **Brand colours:** Deep navy `#0A2D5E`, technical blue `#1550A8`, amber accent `#F2991C`
+- **Logo:** The company's original logo with background removed to a transparent PNG (`assets/logo/logo-transparent.png`), used in header and footer
+- **Brand colours (extracted from logo):** Indigo `#3D3E6A`, supporting blue `#5673A5`, crimson accent `#A41F34`
 - **Typography:** Oswald (headings) + Inter (body)
 - **Iconography:** Custom inline SVG (Lucide-style strokes)
 - **Imagery:** Custom-generated, industry-specific photography
